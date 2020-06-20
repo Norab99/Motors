@@ -8,20 +8,23 @@ we need to move 2048 = 32*64=2048 as we have 32 steps and 64 as the gear ratio. 
 
 #define stepPerRevolution 32  
 
+#define Sw1 3  // The direction of the motor will be counterclockwise
+#define Sw2 4 // The direction of the motor will be clockwise
+
 Stepper StepperMotor(stepPerRevolution, 8, 10, 9, 11);
 
 void setup() {
-  pinMode(3,INPUT_PULLUP);
-  pinMode(4,INPUT_PULLUP);
+  pinMode(Sw1,INPUT_PULLUP);
+  pinMode(Sw2,INPUT_PULLUP);
   StepperMotor.setSpeed(200);        // The range of speed for for 28-BYJ48 stepper motor is from 0 to 200 rpm.
 }
 
 void loop() {  
-  if (digitalRead(3) == 0) { 
+  if (digitalRead(Sw1) == 0) { 
     StepperMotor.step(stepPerRevolution);         // The motor will move counterclockwise 
   }
 
- else if (digitalRead(4) == 0) {
+ else if (digitalRead(Sw2) == 0) {
     StepperMotor.step(-stepPerRevolution);      // The motor will move clockwise 
   }
 }
