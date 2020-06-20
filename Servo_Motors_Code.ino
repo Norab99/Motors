@@ -3,8 +3,8 @@
 
 // There are two potentiometers as they act like joystick that have two cordinates which are x,y
 
-int x_cor;    // Variable to read the value of the x cordinate (Horizontal - First Potentiometer)
-int y_cor;    // Variable to read the value of the y cordinate (Vertical - Second Potentiometer)
+int x_cor;    // Read the value of the x cordinate (Horizontal - First Potentiometer)
+int y_cor;    // Read the value of the y cordinate (Vertical - Second Potentiometer)
 int pinAttachM1 = 7;
 int pinAttachM2 = 9;
 
