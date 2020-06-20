@@ -1,10 +1,10 @@
 #define Sw1 11  // ON & OFF Switch
 #define Sw2 12  // Change the Direction
 
-#define OM11 1  // input1 that attecned to motor1
-#define OM12 2  // input2 that attecned to motor1
-#define OM21 8  // input1 that attecned to motor2
-#define OM22 7  // input2 that attecned to motor2
+#define OM11 1  // input1 that attached to motor1
+#define OM12 2  // input2 that attached to motor1
+#define OM21 8  // input1 that attached to motor2
+#define OM22 7  // input2 that attached to motor2
 
 void setup()
 {
