@@ -25,7 +25,7 @@ void loop()
     }
   }
   
-  else {                    // The switch is off
+  else {                    // The switch is OFF
     digitalWrite(1, 0);
     digitalWrite(2,0);
     digitalWrite(8, 0);
