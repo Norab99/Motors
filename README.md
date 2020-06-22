@@ -4,7 +4,7 @@ There ara three systems for three different types of motors that used with robot
 
 The First System (Two DC Motors): They are working in two direction with constatnt speed and the user can change the direction by change the state of the slide switch.
 
-The link of this system in Tinkercad:
+The link of this system in Tinkercad: https://www.tinkercad.com/things/3O6IY6HwZ6y-dc-motor/editel?sharecode=lUJsDcFykEHS76mTW6_3Y1HecHDijeQl3q6i3Vm12oY
 
 The Second System (Two Servo Motors): They move according to the value of the input angle, and the angle value can be controlled by variable resistance or joystick in the real life.
 
