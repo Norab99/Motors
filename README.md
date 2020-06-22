@@ -2,7 +2,7 @@
 
 There ara three systems for three different types of motors that used with robotics.
 
-The First System (Two DC Motors): They are working in two direction with constatnt speed and the user can change the direction by pressing the bush buttons.
+The First System (Two DC Motors): They are working in two direction with constatnt speed and the user can change the direction by change the state of the slide switch.
 
 The Second System (Two Servo Motors): They move according to the value of the input angle, and the angle value can be controlled by variable resistance or joystick in the real life.
 
